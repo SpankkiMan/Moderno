@@ -1,14 +1,6 @@
-html {
-    box-sizing: border-box;
-}
-*,
-*::before,
-*::after{
-    box-sizing: inherit;
-}
+@import 'vars';
+@import 'global';
+
 body{
-    background-color: rgb(170, 184, 181);
+    background-color: rgb(196, 39, 39);
 }
- .box{
-     display: flex;
- }
