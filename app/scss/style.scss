@@ -1,6 +1,15 @@
 @import 'vars';
 @import 'global';
+@import 'fonts';
 
-body{
-    background-color: rgb(196, 39, 39);
+.header__top-inner {
+    display: flex;
+    justify-content: space-between;
+    height         : 90px;
+    align-items    : center;
 }
+.header__text{
+    margin-left: auto;
+    margin-right: 25px;
+}
+ 
