@@ -1,33 +1,55 @@
-
 html {
     box-sizing: border-box;
 }
+
 *,
 *::before,
-*::after{
+*::after {
     box-sizing: inherit;
 }
-a{
+
+a {
     display: inline-block;
     text-decoration: none;
     color: $text;
 }
+
 ul,
-li{
+li {
     margin: 0;
     padding: 0;
     list-style: none;
 }
-body{
-    font-family: 'Roboto-Regular', sans-serif;
+
+body {
+    font-family: "Roboto-Regular", sans-serif;
     font-style: 15px;
     line-height: 24px;
-    color :$text;
+    color: $text;
     font-weight: 400;
-
 }
-.container{
-    min-width: 1000px;
+
+.container {
+    min-width: 1200px;
     margin: 0 auto;
-    padding: 0 15px ;
+    padding: 0 15px;
+}
+
+.container-fluid {
+    min-width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+@media (max-width: 720px) {
+    .container-fluid {
+        padding: 0 15px;
+    }
+}
+
+.title {
+    color: $bg;
+    font-weight: 700;
+    font-style: 36px;
+    line-height: 60px;
 }
